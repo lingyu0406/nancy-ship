@@ -1,24 +1,15 @@
-import React, { FC } from 'react';
-import logo from './logo.svg';
+import React from 'react';
+import Button, { ButtonType, ButtonSize } from './components/Button/button';
 import './App.css';
 
 function App() {
-  const a = '123';
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Button>22</Button>
       </header>
     </div>
   );

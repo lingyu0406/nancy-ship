@@ -29,6 +29,11 @@ module.exports = {
     "import/no-extraneous-dependencies": [2, { "devDependencies": true }],
     "import/no-unresolved": [0, { "ignore": ["antd-mobile"] }],
     "react/jsx-filename-extension": [0],
-    "eqeqeq": 2
+    "eqeqeq": 2,
+    "react/button-has-type": ['always', {
+      "button": false,
+      "submit": false,
+      "reset": false
+    }]
   },
 };
