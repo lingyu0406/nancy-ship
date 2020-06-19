@@ -1,0 +1,15 @@
+{
+   "eslint.validate": [
+       "javascript",
+       "javascriptreact"
+   ],
+       "files.associations": {
+           "*.js": "javascript",
+           "*.jsx": "javascriptreact",
+           "*.ts": "typescript",
+           "*.tsx": "typescriptreact"
+       },
+       "editor.codeActionsOnSave": {
+           "source.fixAll": true,
+       }
+  }
